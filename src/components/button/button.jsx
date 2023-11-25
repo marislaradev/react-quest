@@ -1,4 +1,4 @@
-import React from "react";
+import '../button/button.css'
 
 const giveAlert = (label) => {
     alert(`A label desse botão é ${label}`)
@@ -8,7 +8,7 @@ const Button = (props) => {
     const { label } = props;
 
     return (
-        <button className="btn"      onClick={() => giveAlert(label)}>
+        <button className="btn" onClick={() => giveAlert(label)}>
         {label}
         </button>
     )

@@ -1,4 +1,5 @@
 import React from "react";
+import '../changedText/changedText.css'
 
 const ChangedText = (props) => {
         return (
