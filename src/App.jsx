@@ -1,7 +1,7 @@
 
 import React from 'react';
 import './App.css'
-import ChangedText from './components/coloredText/coloredText';
+import ChangedText from './components/changedText/changedText';
 import Button from './components/button/button';
 
 
